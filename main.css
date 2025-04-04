@@ -1,0 +1,80 @@
+.khung1 {
+    width: 100%; /*ngang */
+    height: 100%; /*dọcdọc */
+}
+h1 {
+    color: brown; /*màu  */
+    font-size: 30px; /*cỡ chữchữ */
+}
+.cc {
+    color: blue;
+    font-size: 15px;
+}
+.hinhvuong {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: chartreuse ;
+}
+#ccc.k11{
+    background-color: rgb(111, 12, 12) ; /*màu khung */   
+}
+#ccc.k22{
+    background-color: rgb(79, 19, 135) ; /*màu khung */  
+    /* padding-left: 5px;
+    padding-right: 5px; 
+    padding-bottom: 5px;
+    padding-top: 5px; */
+    /* padding: 5px 5px 5px 5px ;  */
+    /*       trên phải dưới trái */
+    padding: 16px;
+    border: 2px solid black;
+    margin: 5px;
+    box-sizing: border-box;
+
+
+}
+.nut1 {
+    color: white;
+    width: 20%;
+    height: 10%;
+    background-color: red;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.nut1:hover {
+    background-color: cadetblue ;
+}
+#anh {
+    width: 50%;
+    height: 50%;
+    border-width: 1px;
+    border-style: solid ;
+    border-color: black;
+}
+#khoi{
+    background-color: aqua;
+    width: 1190px;
+    height: 160px;
+    margin: 0px auto;
+    display: flex;
+    padding: 7px 7px 7px 80px;
+    box-sizing: border-box;
+
+    
+}
+#hang1{
+    margin-left: 20px ;
+    flex-basis: 50% ;
+    padding-left: 120px;
+    box-sizing: border-box;
+}
+#hang2{
+    flex-basis: 25% ;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+#hang3{
+    flex-basis: 25% ;
+}
